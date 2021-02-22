@@ -1,0 +1,55 @@
+.App {
+    text-align: center;
+    background-color: #aaa;
+    height: 100vh;
+    margin: 0;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73, 79, 82);
+    color: white;
+  }
+  
+  .nav-link{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+  }
+
+  input{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 3px solid lightblue;
+    color: #aaa;
+  }
+
+  button{
+
+    width: 200px;
+    height: 70px;
+    border: 3px solid lightblue;
+    text-align: center;
+    font-size: 30px;
+    background-color: midnightblue;
+    color: white;
+
+  }
+
+  button:hover{
+    background-color: aquamarine;
+  }
